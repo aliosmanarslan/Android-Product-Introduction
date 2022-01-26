@@ -3,7 +3,7 @@ This application promotes a company and sends the product to the customer by tak
 
 | Mail      | Password |
 | --------- | -----:|
-| 🤵 aliarslanic@mail.com  | 🛂 12345 |
+| 🤵 aliarslanic@mail.com  | 🔒 12345 |
 
 
 # Project Display Image
