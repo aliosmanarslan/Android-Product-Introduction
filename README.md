@@ -1,6 +1,11 @@
 # Android Product Introduction
 This application promotes a company and sends the product to the customer by taking the orders from the user from the service. Product promotion and ordering application. Aliexpress App
 
+| Mail      | Password |
+| --------- | -----:|
+| 🤵 aliarslanic@mail.com  | 🛂 12345 |
+
+
 # Project Display Image
 <p>
 <a href="https://github.com/aliosmanarslan/Android-Product-Introduction/blob/main/app_images/1.png" target="_blank">
