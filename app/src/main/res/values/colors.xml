@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E52F20</color>
+    <color name="colorPrimaryDark">#E52F20</color>
+    <color name="colorAccent">#E52F20</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#E52F20</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="arkaPlanColor">#FFEEECF1</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+</resources>

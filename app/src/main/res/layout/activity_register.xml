@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    style="@style/loginParent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+<ScrollView
+style="@style/parent">
+
+<RelativeLayout
+    style="@style/parent">
+    <LinearLayout
+        style="@style/parent"
+        android:background="@drawable/login_shape_bk"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <ImageView
+            style="@style/parent"
+            app:srcCompat="@drawable/ic_login_bk" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <TextView
+            style="@style/headerText"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Aliexpress" />
+
+        <androidx.cardview.widget.CardView
+            style="@style/loginCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:layout_marginBottom="@dimen/loginViewsMargin"
+            android:background="@color/whiteCardColor"
+            android:elevation="5dp"
+            app:cardCornerRadius="@dimen/loginCardRadius" >
+
+            <LinearLayout
+                style="@style/linearParent"
+                android:layout_gravity="center"
+                android:padding="@dimen/loginViewsMargin">
+
+                <TextView
+                    style="@style/headerTextPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:text="Register" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/parent">
+
+                    <EditText
+                        android:id="@+id/registerNameText"
+                        style="@style/modifiedEditText"
+                        android:hint="Name"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:textSize="@dimen/newsMoreTextSize" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/parent">
+
+                    <EditText
+                        android:id="@+id/registerSurnameText"
+                        style="@style/modifiedEditText"
+                        android:hint="Surname"
+                        android:inputType="textPersonName"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/parent">
+
+                    <EditText
+                        android:id="@+id/registerPhoneText"
+                        style="@style/modifiedEditText"
+                        android:hint="Phone"
+                        android:inputType="textPersonName"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/parent">
+
+                    <EditText
+                        android:id="@+id/registerMailText"
+                        style="@style/modifiedEditText"
+                        android:hint="Mail"
+                        android:inputType="textPersonName"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/parent">
+
+                    <EditText
+                        android:id="@+id/registerPassText"
+                        style="@style/modifiedEditText"
+                        android:hint="Password"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:password="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/registerBtn"
+                    style="@style/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:text="Register"
+                    android:textColorHighlight="@color/colorPrimaryDark"
+                    android:textColorHint="@color/primaryTextColor"
+                    android:textCursorDrawable="@drawable/login_button_bk" />
+
+                <TextView
+                    android:id="@+id/registerToLoginText"
+                    style="@style/parent"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:text="Already have an account? Login"
+                    android:textAlignment="center"
+                    android:textColor="@color/primaryTextColor"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
+    </RelativeLayout>
